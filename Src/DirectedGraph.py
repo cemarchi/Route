@@ -1,4 +1,4 @@
-from Src.Edge import Edge
+from Edge import Edge
 
 
 class DirectedGraph:
