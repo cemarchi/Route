@@ -62,3 +62,14 @@ Output #8: 9
 Output #9: 9
 
 Output #10: 7
+
+
+ALGORITHMS:
+
+In this exercise, Breadth-first search (BFS) and Shorest path
+
+More details, see theses websites:
+
+https://en.wikipedia.org/wiki/Breadth-first_search
+https://courses.cs.washington.edu/courses/cse373/06sp/handouts/lecture22.pdf
+http://www.inf.ed.ac.uk/teaching/courses/cs2/LectureNotes/CS2Bh/ADS/ads11.pdf
