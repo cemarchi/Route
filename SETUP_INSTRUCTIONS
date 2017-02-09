@@ -2,7 +2,7 @@ DESIGN SOLUTION
 
 Classes:
 
-Route: It's a route among two cities incluind the distance
+Route: It's a route among two cities including the distance
 
 RouteGraph: Contains the towns and their connections. In additional, there as some method to get some information about distance of route,
 total of stops, the shorest route and so on.
