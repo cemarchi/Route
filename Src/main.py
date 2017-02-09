@@ -1,5 +1,5 @@
 import sys
-from Router import Router
+from Src.RailroadService import RailroadService
 
 if __name__ == '__main__':
     file_path = sys.argv[1]
@@ -8,4 +8,4 @@ if __name__ == '__main__':
     with open(file_path, 'r') as file:
         input_test = file.read()
 
-    print(Router(input_test).get_route_information())
+    print(RailroadService(input_test).get_route_information())

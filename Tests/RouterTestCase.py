@@ -1,6 +1,6 @@
 import unittest
 
-from Src.Router import Router
+from Src.RailroadService import RailroadService
 
 
 class RouterTestCase(unittest.TestCase):
@@ -8,7 +8,7 @@ class RouterTestCase(unittest.TestCase):
         self.__graph = 'AB5,BC4,CD8,DC8,DE6,AD5,CE2,EB3,AE7'
 
     def test_router(self):
-        router = Router(self.__graph)
+        railroad_service = RailroadService(self.__graph)
         ss = 'Output #1: 9\n' \
              'Output #2: 5\n' \
              'Output #3: 13\n' \
@@ -20,7 +20,7 @@ class RouterTestCase(unittest.TestCase):
              'Output #9: 9\n' \
              'Output #10: 7'
 
-        self.assertTrue(router.get_route_information(), ss)
+        self.assertTrue(railroad_service.get_route_information(), ss)
 
 
 if __name__ == '__main__':
