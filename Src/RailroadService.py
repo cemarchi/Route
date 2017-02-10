@@ -1,4 +1,4 @@
-from Src.RouteGraph import RouteGraph
+from RouteGraph import RouteGraph
 
 
 class RailroadService:

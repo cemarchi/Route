@@ -1,15 +1,28 @@
 DESIGN SOLUTION
 
+Directories:
+
+Route: That's a root path where contains the application, tests, txt files
+
+Src: Contains the application sources
+
+Tests: Contains sources for unit tests
+
 Classes:
 
 Route: It's a route among two cities including the distance
 
-RouteGraph: Contains the towns and their connections (Routes). In additional, there as some method to get some information about distance of route,
+RouteGraph: Contains the towns and their connections (Routes). In additional, there are some methods to get some information about distance of route,
 total of stops, the shorest route and so on.
 
 RailroadService: Represents the service about railroad (RouteGraph). Gets the information about the routes
 
 main: Runs the application
 
+
+
 SETUP INSTRUCTIONS
 
+Execute the following command:
+
+python main.py [file_input]

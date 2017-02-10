@@ -1,4 +1,7 @@
 import unittest
+import sys
+
+sys.path.append('..\Src')
 
 from Src.RailroadService import RailroadService
 

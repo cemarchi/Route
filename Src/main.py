@@ -1,5 +1,5 @@
 import sys
-from Src.RailroadService import RailroadService
+from RailroadService import RailroadService
 
 if __name__ == '__main__':
     file_path = sys.argv[1]

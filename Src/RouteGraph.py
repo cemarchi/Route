@@ -1,4 +1,4 @@
-from Src.Route import Route
+from Route import Route
 
 
 class RouteGraph:
