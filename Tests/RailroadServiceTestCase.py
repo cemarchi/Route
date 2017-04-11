@@ -23,7 +23,7 @@ class RailroadServiceTestCase(unittest.TestCase):
              'Output #9: 9\n' \
              'Output #10: 7'
 
-        self.assertTrue(railroad_service.get_route_information(), expected)
+        self.assertEqual(railroad_service.get_route_information(), expected)
 
 
 if __name__ == '__main__':

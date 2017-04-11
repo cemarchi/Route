@@ -4,8 +4,8 @@ class Route:
 
     def __init__(self, town: str, distance: int):
         """Constructor.
-        town: str, represents the city connected
-        distance: int, that's the distance among two towns
+        :param town: str, represents the city connected
+        :param distance: int, that's the distance among two towns
         """
         self.__town = town
         self.__distance = distance
